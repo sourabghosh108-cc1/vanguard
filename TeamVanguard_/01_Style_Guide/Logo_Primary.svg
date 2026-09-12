@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+  <defs>
+    <linearGradient id="titaniumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E2E4E8"/>
+      <stop offset="100%" stop-color="#9AA0A6"/>
+    </linearGradient>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9500"/>
+      <stop offset="100%" stop-color="#C87D55"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0B0C0E"/>
+  
+  <!-- Geometric V-Soundwave Symbol -->
+  <g transform="translate(60, 40)">
+    <!-- Outer Precision Shield / V -->
+    <path d="M 10 10 L 80 150 L 150 10 L 125 10 L 80 105 L 35 10 Z" fill="url(#titaniumGrad)"/>
+    <!-- Inner Acoustic Wave Pillars -->
+    <rect x="55" y="25" width="6" height="50" rx="3" fill="url(#copperGrad)"/>
+    <rect x="67" y="15" width="6" height="70" rx="3" fill="url(#copperGrad)"/>
+    <rect x="79" y="5" width="6" height="90" rx="3" fill="url(#copperGrad)"/>
+    <rect x="91" y="15" width="6" height="70" rx="3" fill="url(#copperGrad)"/>
+    <rect x="103" y="25" width="6" height="50" rx="3" fill="url(#copperGrad)"/>
+    <!-- Precision Focal Ring -->
+    <circle cx="80" cy="120" r="10" stroke="url(#copperGrad)" stroke-width="3" fill="none"/>
+    <circle cx="80" cy="120" r="3" fill="#FF9500"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(240, 115)">
+    <text font-family="'Space Grotesk', 'Montserrat', 'Helvetica', sans-serif" font-weight="800" font-size="52" fill="#E2E4E8" letter-spacing="6">VANGUARD</text>
+    <text font-family="'Inter', 'Arial', sans-serif" font-weight="400" font-size="20" fill="#C87D55" letter-spacing="14" y="42">AUDIO LABS</text>
+  </g>
+
+  <!-- Precision Calibration Markers -->
+  <line x1="240" y1="175" x2="740" y2="175" stroke="#17191E" stroke-width="2"/>
+  <line x1="240" y1="175" x2="360" y2="175" stroke="#C87D55" stroke-width="2"/>
+  <text x="740" y="195" font-family="monospace" font-size="10" fill="#666666" text-anchor="end">SYS.REF: 994.2Hz // LUX-ENG</text>
+</svg>

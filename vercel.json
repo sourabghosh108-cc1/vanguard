@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/TeamVanguard_/03_Digital_UI/index.html"
+    },
+    {
+      "src": "/acoustic",
+      "dest": "/TeamVanguard_/03_Digital_UI/acoustic.html"
+    },
+    {
+      "src": "/styles.css",
+      "dest": "/TeamVanguard_/03_Digital_UI/styles.css"
+    },
+    {
+      "src": "/app.js",
+      "dest": "/TeamVanguard_/03_Digital_UI/app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

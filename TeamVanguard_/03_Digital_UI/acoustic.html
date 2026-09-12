@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acoustic Craft & Engineering | Vanguard Audio</title>
+  <meta name="description" content="Explore Vanguard Audio's acoustic craft, sustainable materials, precision driver geometry, and acoustic tuning philosophy.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .craft-hero {
+      padding: 160px 50px 80px;
+      text-align: center;
+      background: radial-gradient(circle at 50% 20%, rgba(255, 149, 0, 0.15), transparent 70%);
+    }
+    .craft-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      padding: 60px 50px;
+    }
+    .craft-card {
+      background: var(--bg-card);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      padding: 36px;
+    }
+    .craft-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--accent-amber);
+      margin-bottom: 12px;
+    }
+    .eq-visualizer {
+      background: rgba(0,0,0,0.5);
+      border: 1px solid var(--border-subtle);
+      height: 180px;
+      border-radius: 8px;
+      margin-top: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .eq-bar {
+      width: 16px;
+      background: linear-gradient(0deg, var(--accent-copper), var(--accent-amber));
+      border-radius: 4px;
+      transition: height 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="logo-brand">
+      <div class="logo-text">VANGUARD</div>
+    </a>
+    <nav>
+      <a href="index.html">Overview</a>
+      <a href="acoustic.html" class="active">Acoustic Craft</a>
+      <a href="index.html#specs">Specifications</a>
+    </nav>
+    <a href="index.html#preorder" class="cta-btn-primary">RESERVE VH-1</a>
+  </header>
+
+  <!-- Craft Hero -->
+  <section class="craft-hero">
+    <div class="section-tag">CRAFT & SUSTAINABILITY</div>
+    <h1 class="hero-title">PRECISION CRAFTED.<br><span>SUSTAINABILITY DRIVEN.</span></h1>
+    <p class="hero-description" style="margin: 0 auto;">
+      From 100% recycled aerospace titanium to zero-VOC organic leather cushions, Vanguard Audio redefines high-end luxury hardware for a circular future.
+    </p>
+  </section>
+
+  <!-- Craft Architecture Grid -->
+  <section class="craft-grid">
+    <div class="craft-card">
+      <h3>01. Diaphragm Physics</h3>
+      <p>Graphene-infused atomic diaphragms maintain linear piston movement up to 48kHz, eliminating transient smear and intermodulation distortion.</p>
+    </div>
+
+    <div class="craft-card">
+      <h3>02. Sustainable Materials</h3>
+      <p>Crafted using 98.4% recycled titanium chassis, FSC-certified unbleached packaging, and plant-based acoustic dampening foams.</p>
+    </div>
+
+    <div class="craft-card">
+      <h3>03. Sound Profile Tuning</h3>
+      <p>Tuned according to the Harman Audiophile Curve with a gentle warm sub-bass lift and pristine treble resolution.</p>
+      
+      <div class="eq-visualizer">
+        <div class="eq-bar" style="height: 60%;"></div>
+        <div class="eq-bar" style="height: 75%;"></div>
+        <div class="eq-bar" style="height: 50%;"></div>
+        <div class="eq-bar" style="height: 65%;"></div>
+        <div class="eq-bar" style="height: 85%;"></div>
+        <div class="eq-bar" style="height: 90%;"></div>
+        <div class="eq-bar" style="height: 70%;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Image Banner -->
+  <section style="padding: 40px 50px 100px; text-align: center;">
+    <img src="../04_Product_Collateral/Retail_Display.png" alt="Retail Listening Sanctuary" style="width: 100%; max-width: 1000px; border-radius: 16px; border: 1px solid var(--glass-border);">
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-bottom">
+      <p>© 2026 Vanguard Audio Labs. Acoustic Engineering Division.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

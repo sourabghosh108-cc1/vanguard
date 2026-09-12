@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160" width="700" height="160">
+  <defs>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17191E"/>
+      <stop offset="100%" stop-color="#0B0C0E"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#E2E4E8"/>
+  
+  <g transform="translate(40, 30) scale(0.65)">
+    <path d="M 10 10 L 80 150 L 150 10 L 125 10 L 80 105 L 35 10 Z" fill="url(#darkGrad)"/>
+    <rect x="55" y="25" width="6" height="50" rx="3" fill="#C87D55"/>
+    <rect x="67" y="15" width="6" height="70" rx="3" fill="#C87D55"/>
+    <rect x="79" y="5" width="6" height="90" rx="3" fill="#C87D55"/>
+    <rect x="91" y="15" width="6" height="70" rx="3" fill="#C87D55"/>
+    <rect x="103" y="25" width="6" height="50" rx="3" fill="#C87D55"/>
+    <circle cx="80" cy="120" r="10" stroke="#C87D55" stroke-width="3" fill="none"/>
+    <circle cx="80" cy="120" r="3" fill="#17191E"/>
+  </g>
+
+  <g transform="translate(170, 85)">
+    <text font-family="'Space Grotesk', 'Montserrat', sans-serif" font-weight="800" font-size="38" fill="#0B0C0E" letter-spacing="4">VANGUARD AUDIO</text>
+    <text font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#C87D55" letter-spacing="8" y="26">HIGH FIDELITY ACOUSTIC ARCHITECTURE</text>
+  </g>
+</svg>
